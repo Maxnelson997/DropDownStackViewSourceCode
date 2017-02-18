@@ -15,6 +15,8 @@
 		79087E151E55801000166B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79087E131E55801000166B43 /* LaunchScreen.storyboard */; };
 		79087E201E55801000166B43 /* DropDownCellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79087E1F1E55801000166B43 /* DropDownCellsTests.swift */; };
 		79087E2B1E55801000166B43 /* DropDownCellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79087E2A1E55801000166B43 /* DropDownCellsUITests.swift */; };
+		79087E3A1E55804800166B43 /* StackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79087E381E55804800166B43 /* StackViewCell.swift */; };
+		79087E3B1E55804800166B43 /* StackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79087E391E55804800166B43 /* StackViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		79087E261E55801000166B43 /* DropDownCellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownCellsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79087E2A1E55801000166B43 /* DropDownCellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCellsUITests.swift; sourceTree = "<group>"; };
 		79087E2C1E55801000166B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79087E381E55804800166B43 /* StackViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackViewCell.swift; path = ../StackViewCell.swift; sourceTree = "<group>"; };
+		79087E391E55804800166B43 /* StackViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StackViewCell.xib; path = ../StackViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				79087E071E55801000166B43 /* AppDelegate.swift */,
 				79087E091E55801000166B43 /* ViewController.swift */,
+				79087E381E55804800166B43 /* StackViewCell.swift */,
+				79087E391E55804800166B43 /* StackViewCell.xib */,
 				79087E0B1E55801000166B43 /* Main.storyboard */,
 				79087E111E55801000166B43 /* Assets.xcassets */,
 				79087E131E55801000166B43 /* LaunchScreen.storyboard */,
@@ -241,6 +247,7 @@
 				79087E151E55801000166B43 /* LaunchScreen.storyboard in Resources */,
 				79087E121E55801000166B43 /* Assets.xcassets in Resources */,
 				79087E0D1E55801000166B43 /* Main.storyboard in Resources */,
+				79087E3B1E55804800166B43 /* StackViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +275,7 @@
 				79087E101E55801000166B43 /* DropDownCells.xcdatamodeld in Sources */,
 				79087E0A1E55801000166B43 /* ViewController.swift in Sources */,
 				79087E081E55801000166B43 /* AppDelegate.swift in Sources */,
+				79087E3A1E55804800166B43 /* StackViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
